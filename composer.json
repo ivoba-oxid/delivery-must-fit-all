@@ -1,0 +1,26 @@
+{
+  "name": "ivoba-oxid/delivery-must-fit-all",
+  "description": "Delivery must fit all module for OXID eShop 6.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://github.com/ivoba-oxid/ivoba-delivery-must-fit-all",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "oxid-esales/oxideshop-ce": "^v6.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "ivoba/delivery-must-fit-all"
+    },
+    "branch-alias": {
+        "dev-master": "1.0.x-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "IvobaOxid\\JsonLd\\": "../../../source/modules/ivoba/delivery-must-fit-all"
+    }
+  }
+}
