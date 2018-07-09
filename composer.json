@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "IvobaOxid\\DeliveryMustFitAll\\": "../../../source/modules/ivoba-oxid/delivery-must-fit-all"
+      "IvobaOxid\\DeliveryMustFitAll\\": "../../../source/modules/ivoba/delivery-must-fit-all"
     }
   }
 }
