@@ -1,5 +1,5 @@
 <?php
-$sMetadataVersion = '2';
+$sMetadataVersion = '2.0';
 $aModule          = [
     'id'          => 'ivoba_delivery_must_fit_all',
     'title'       => '<strong>Ivo Bathke</strong>:  <i>Delivery Must Fit All</i>',
