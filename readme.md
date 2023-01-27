@@ -22,7 +22,7 @@ https://forum.oxid-esales.com/t/versandkosten-nur-gultig-wenn-alle-artikel-passe
 In "Erweiterungen -> Module -> Ivo Bathke: Delivery Must Fit All" enter your settings in the "Settings" tab  
 
 - Add the title of the delivery-rule in the field, if multiple rules add one per line.
-- Den Titel der Versandregel in das Feld unter Einstellungen eintragen. Mehrere Regeln untereinander eintragen.
+- Den Titel der Versandkostenregel in das Feld unter Einstellungen eintragen. Mehrere Regeln untereinander eintragen.
 
 ## Requirements
 - UTF-8

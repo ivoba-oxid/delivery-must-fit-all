@@ -73,7 +73,6 @@ class Delivery extends Delivery_parent
                         if ($oProduct->inCategory($sCatId)) {
                             $artAmount = $this->getDeliveryAmount($oContent);
                             $blUse     = true;
-                            $use       = true;
                             if ($this->isDeliveryRuleFitByArticle($artAmount)) {
                                 $blForBasket = true;
                                 $this->updateItemCount($oContent);
@@ -115,9 +114,9 @@ class Delivery extends Delivery_parent
             $blForBasket = true;
         }
 
-        $deliveries = $slOxid = Registry::getConfig()->getConfigParam(self::CONFIG_PARAM);
+        $deliveries = Registry::getConfig()->getConfigParam(self::CONFIG_PARAM);
         if (in_array($this->oxdelivery__oxtitle->rawValue, $deliveries)) {
-            if(in_array(false, $articleMap, true) === true){
+            if (in_array(false, $articleMap, true) === true) {
                 $blForBasket = false;
             }
         }
